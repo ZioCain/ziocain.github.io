@@ -32,9 +32,9 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/room.loader.js";
       var config = {
-        dataUrl: buildUrl + "/room.data.br",
-        frameworkUrl: buildUrl + "/room.framework.js.br",
-        codeUrl: buildUrl + "/room.wasm.br",
+        dataUrl: buildUrl + "/room.data",
+        frameworkUrl: buildUrl + "/room.framework.js",
+        codeUrl: buildUrl + "/room.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "ZioCain",
         productName: "DemoWebXR",
@@ -50,7 +50,7 @@
       var unityInstance = null;
       
 
-      canvas.style.background = "url('" + buildUrl + "/room.jpg.br') center / cover";
+      canvas.style.background = "url('" + buildUrl + "/room.jpg') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
